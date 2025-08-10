@@ -27,6 +27,6 @@ jobs:
         distribution: 'adopt'
 
     - name: Build Product Service
-      working-directory: ./ecomerce/product-service
+      working-directory: ./ecommerce/product-service
       run: mvn spring-boot:build-image -DskipTests
 
