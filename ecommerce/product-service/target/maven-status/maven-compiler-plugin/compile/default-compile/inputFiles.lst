@@ -1,0 +1,15 @@
+C:\Users\pedro\OneDrive\Documentos\Programação\ecomerce\ecomerce\product-service\src\main\java\ms\productapi\configs\RabbitMQConfig.java
+C:\Users\pedro\OneDrive\Documentos\Programação\ecomerce\ecomerce\product-service\src\main\java\ms\productapi\configs\SwaggerConfig.java
+C:\Users\pedro\OneDrive\Documentos\Programação\ecomerce\ecomerce\product-service\src\main\java\ms\productapi\controllers\CategoryController.java
+C:\Users\pedro\OneDrive\Documentos\Programação\ecomerce\ecomerce\product-service\src\main\java\ms\productapi\controllers\ProductController.java
+C:\Users\pedro\OneDrive\Documentos\Programação\ecomerce\ecomerce\product-service\src\main\java\ms\productapi\dtos\PaginatedResponse.java
+C:\Users\pedro\OneDrive\Documentos\Programação\ecomerce\ecomerce\product-service\src\main\java\ms\productapi\dtos\ProductRequestDTO.java
+C:\Users\pedro\OneDrive\Documentos\Programação\ecomerce\ecomerce\product-service\src\main\java\ms\productapi\dtos\ProductResponseDTO.java
+C:\Users\pedro\OneDrive\Documentos\Programação\ecomerce\ecomerce\product-service\src\main\java\ms\productapi\dtos\StatusProduct.java
+C:\Users\pedro\OneDrive\Documentos\Programação\ecomerce\ecomerce\product-service\src\main\java\ms\productapi\entity\Category.java
+C:\Users\pedro\OneDrive\Documentos\Programação\ecomerce\ecomerce\product-service\src\main\java\ms\productapi\entity\Product.java
+C:\Users\pedro\OneDrive\Documentos\Programação\ecomerce\ecomerce\product-service\src\main\java\ms\productapi\ProductApiApplication.java
+C:\Users\pedro\OneDrive\Documentos\Programação\ecomerce\ecomerce\product-service\src\main\java\ms\productapi\repositories\CategoryRepository.java
+C:\Users\pedro\OneDrive\Documentos\Programação\ecomerce\ecomerce\product-service\src\main\java\ms\productapi\repositories\ProductRepository.java
+C:\Users\pedro\OneDrive\Documentos\Programação\ecomerce\ecomerce\product-service\src\main\java\ms\productapi\services\CategoryService.java
+C:\Users\pedro\OneDrive\Documentos\Programação\ecomerce\ecomerce\product-service\src\main\java\ms\productapi\services\ProductService.java

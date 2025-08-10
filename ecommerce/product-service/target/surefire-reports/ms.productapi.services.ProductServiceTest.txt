@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ms.productapi.services.ProductServiceTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.911 s -- in ms.productapi.services.ProductServiceTest
