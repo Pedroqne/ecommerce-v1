@@ -30,14 +30,11 @@ jobs:
       working-directory: ./ecommerce/product-service
       run: mvn spring-boot:build-image -DskipTests
 
-    - name: Docker Compose Build
-      working-directory: ./ecommerce
-      run: docker compose build
 
     - name: Tag Docker Images
       run: | 
-        docker tag pedroqn/product-service:0.0.1-SNAPSHOT pedroqn/product-service/product-service:latest
-        docker tag pedroqn/product-service:0.0.1-SNAPSHOT pedroqn/product-service/product-service:${{github.RUN_ID}}
+        docker tag pedroqn/product-service:0.0.1-SNAPSHOT pedroqn/product-service:latest
+        docker tag pedroqn/product-service:0.0.1-SNAPSHOT pedroqn/product-service:${{github.RUN_ID}}
 
     - name: Push Docker Images to Docker Hub
       run: |
