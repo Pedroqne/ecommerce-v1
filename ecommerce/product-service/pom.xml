@@ -83,6 +83,9 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <mainClass>ms.productService.ProductApiApplication</mainClass>
+                    <image>
+                        <name>pedroqn/product-service:${project.version}</name>
+                    </image>
                 </configuration>
 
                 <executions>
