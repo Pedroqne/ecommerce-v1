@@ -30,6 +30,9 @@ jobs:
       working-directory: ./ecommerce/product-service
       run: mvn spring-boot:build-image -DskipTests
 
+    - name: List Docker images
+      run: docker images
+
 
     - name: Tag Docker Images
       run: | 
