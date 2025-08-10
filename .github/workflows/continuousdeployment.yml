@@ -28,5 +28,5 @@ jobs:
 
     - name: Build Product Service
       working-directory: ./ecomerce/product-service
-      run: mvn spring-boot:build-image -DskipTests
+      run: mvn spring-boot:build-image
 

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e12f103-647c-4db0-8edf-c27d6ec9f4de" name="Changes" comment="" />
+    <list default="true" id="9e12f103-647c-4db0-8edf-c27d6ec9f4de" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.github/workflows/continuousdeployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.github/workflows/continuousdeployment.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,15 +23,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Pedroqne"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Pedroqne&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/Pedroqne/ecommerce.git",
+    "url": "https://github.com/Pedroqne/ecommerce-v1.git",
     "accountId": "c8ce3017-7d8b-4a6e-a0f1-dfba9ad6640e"
   }
 }]]></component>
@@ -37,6 +39,13 @@
   <component name="KubernetesApiProvider">{
   &quot;isMigrated&quot;: true
 }</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -65,9 +74,9 @@
     "Spring Boot.ProductApiApplication.executor": "Run",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/pedro/OneDrive/Documentos/Programação/ecomerce/ecommerce/product-service",
+    "last_opened_file_path": "C:/Users/pedro/OneDrive/Documentos/Programação/ecommerce/ecommerce/product-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -206,6 +215,7 @@
       <workItem from="1754840021274" duration="3968000" />
       <workItem from="1754850135775" duration="546000" />
       <workItem from="1754850803257" duration="187000" />
+      <workItem from="1754851170803" duration="26000" />
     </task>
     <servers />
   </component>
