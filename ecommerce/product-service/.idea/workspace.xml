@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e12f103-647c-4db0-8edf-c27d6ec9f4de" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.github/workflows/continuousdeployment.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.github/workflows/continuousdeployment.yml" afterDir="false" />
-    </list>
+    <list default="true" id="9e12f103-647c-4db0-8edf-c27d6ec9f4de" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -215,7 +213,7 @@
       <workItem from="1754840021274" duration="3968000" />
       <workItem from="1754850135775" duration="546000" />
       <workItem from="1754850803257" duration="187000" />
-      <workItem from="1754851170803" duration="89000" />
+      <workItem from="1754851170803" duration="509000" />
     </task>
     <servers />
   </component>
