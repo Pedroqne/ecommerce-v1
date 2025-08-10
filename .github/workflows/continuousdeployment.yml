@@ -30,3 +30,12 @@ jobs:
       working-directory: ./ecommerce/product-service
       run: mvn spring-boot:build-image -DskipTests
 
+    - name: Tag Docker Images
+      run: | 
+        docker tag ${{secrets.DOCKER_USERNAME}}/product-service:0.0.1-SNAPSHOT ${{secrets.DOCKER_USERNAME}}/product-service:latest
+        docker tag ${{secrets.DOCKER_USERNAME}}/product-service:0.0.1-SNAPSHOT ${{secrets.DOCKER_USERNAME}}/product-service:${{github.RUN_ID}}
+
+    - name: Push Docker Images to Docker Hub
+      run: |
+        docker push ${{secrets.DOCKER_USERNAME}}/product-service:latest
+        docker push ${{secrets.DOCKER_USERNAME}}/product-service:${{github.RUN_ID}} 
