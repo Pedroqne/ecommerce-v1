@@ -30,6 +30,10 @@ jobs:
       working-directory: ./ecommerce/product-service
       run: mvn spring-boot:build-image -DskipTests
 
+    - name: Docker Compose Build
+      working-directory: ./ecommerce
+      run: docker compose build
+
     - name: Tag Docker Images
       run: | 
         docker tag ${{secrets.DOCKER_USERNAME}}/product-service:0.0.1-SNAPSHOT ${{secrets.DOCKER_USERNAME}}/product-service:latest
