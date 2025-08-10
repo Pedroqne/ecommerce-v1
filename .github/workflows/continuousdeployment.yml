@@ -36,8 +36,8 @@ jobs:
 
     - name: Tag Docker Images
       run: | 
-        docker tag ${{secrets.DOCKER_USERNAME}}/product-service:0.0.1-SNAPSHOT ${{secrets.DOCKER_USERNAME}}/product-service:latest
-        docker tag ${{secrets.DOCKER_USERNAME}}/product-service:0.0.1-SNAPSHOT ${{secrets.DOCKER_USERNAME}}/product-service:${{github.RUN_ID}}
+        docker tag pedroqn/product-service:0.0.1-SNAPSHOT pedroqn/product-service/product-service:latest
+        docker tag pedroqn/product-service:0.0.1-SNAPSHOT pedroqn/product-service/product-service:${{github.RUN_ID}}
 
     - name: Push Docker Images to Docker Hub
       run: |
